@@ -190,13 +190,7 @@ The table structure with just the rows will be coded like this. There is a singl
 ```
 8. Zebra stripe the rows by adding alternating colors for odd and even rows (shown below). We're using a pseudo selector to choose nth child based on even/odd.
 ```
-tbody tr:nth-child(odd) {
-  background-color: lightgray;
-}
-
-tbody tr:nth-child(even) {
-  background-color: white;
-}
+git
 ``` 
 ### Test
 Compare your table to the once shown in the image below.  Also test in the browser, using dev tools, to see if the table has a horizontal scroll at lower image sizes.
